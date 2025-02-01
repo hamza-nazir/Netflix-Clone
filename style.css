@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+   
+    font-family: "Poppins", sans-serif;
+  }
+  
+.item-two{
+
+/* background-image: url(bg-img.jpeg);
+height: 100vh; */
+display: flex;
+
+justify-content: space-around;
+
+}
+#svg-netflix{
+    width: 140px;
+    height: 30px;
+    fill: red;
+}
+#sign-in{
+  background-color: red;
+  height: 30px;
+  width: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+border-radius: 4px;
+}
+
+#email{
+  
+  margin-top: 100px;                
+  text-align: center;  
+}
+
+#section-one{
+ 
+  
+  background-repeat: no-repeat;
+ height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size:  100vh;
+     
+ 
+
+}
+.item-two{
+  padding-top: 20px;
+}
+.ptag{
+  font-size: 40px;
+}
+.btngml{
+
+  height:50px ;
+  
+}
+.getstart-btn{
+  height: 53px;
+  width: 160px;
+  border-radius: 4px;
+  background-color: red;
+  color: whitesmoke;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  
+}
+#gmail{
+  height: 53px;
+  width: 300px;
+  border-radius: 4px;
+  border: solid 2px rgb(94, 94, 94);
+  background-color: black;
+
+}
+#gmail:focus{
+  outline: none;
+  border: 3px solid white;
+  box-shadow: 1px 1px 4px white;
+}
+#chevron{
+  position: relative;
+ left: 150px;
+}
+
+.btngml{
+  height: 60px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bgclradjust{
+ 
+ 
+  color: white;
+  background-image: url(bg-img.jpeg);
+  
+}
+#section-two{
+  padding-top: 40px;
+  height: 60vh;
+  display: grid;
+  justify-content: center ;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 10px;
+  padding-bottom: 30px;
+}
+#section-two > div{
+  
+  border: none;
+  border-radius: 10px;
+  padding:20px 5px 5px 5px;
+  background:linear-gradient(#1b1c3a, #1e1324);
+
+}
+
+body{
+  /* background-color: black;
+  color: white; */
+}
+
+.ppp{
+  background-color: black;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  color: white;
+  
+  
+}
+
+#section-two{
+  color: white;
+  background-color: black;
+}
+.main{
+  width: 70%;
+  margin: auto;
+}
+#oh{
+  height: 80px;
+ 
+  margin-bottom: 4px;
+  background-color: #2d2d2d;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+#section-three{
+  color: white;
+  background-color: black;
+}
+#heading{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.emailandtext > p{
+  background-color: black;
+  color: white;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.para{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 15px
+}
+.nav-flex{
+  display: flex;
+  justify-content: center;
+}
+.btnn{
+background-color: red;
+border-radius: 5px;
+margin-left: 9px;
+  font-size: 25px;
+  height: 62px;
+  width: 200px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+#el{
+  height: 60px;
+  width: 400px;
+  background-color: rgb(15, 15, 15,1);
+  border-radius: 5px;
+  border: 2px solid rgb(94, 94, 94);
+}
+#el:focus{
+  outline: none;
+  border: 2px solid white;
+  box-shadow: 1px 1px 5px white;
+}
+#footer{
+  width: 70%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-decoration: underline;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+}
+.q{
+padding-top: 60px;
+}
+.c100vh{
+width: 100%;
+background-color: rgb(0, 0, 0);
+}
+.footer-main{
+  margin-top: 40px;
+}
+div ul li{
+  margin-top: 10px;
+}
+.eng{
+  margin-top: 60px;
+  height: 30px;
+  width: 120px;
+  border: solid 2px rgb(94, 94, 94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abc{
+margin-top: 30px;
+}
+.center{
+  width: 70%;
+  margin: auto;
+  display: flex;
+ flex-wrap: wrap;
+  height: 60vh;
+  justify-content: space-between;
+
+}
+.center>div{
+  width: 200px;
+  color: white;
+  margin-right:3px;
+  border: none;
+  border-radius: 10px;
+  padding:20px 5px 5px 5px;
+  background:linear-gradient(#1b1c3a, #1e1324);
+}
+#cards{
+  margin: auto;
+}
+.paraa{
+  background-color: #000000;
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-size: 25px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}  
+.ah{
+  background-color: black;
+}
+.small{
+  font-size: 12px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+.svg-one{
+  position: relative;
+  top: 92px;
+  left: 125px;
+ 
+ 
+}
+.blck{
+  background-color: black;
+}
+.svg-two{
+position: relative;
+top: 65px;
+left: 122px;
+}
+.svg-three{
+  position: relative;
+  top: 110px;
+  left: 120px;
+}
+.svg-four{
+  position: relative;
+  top: 60px;
+  left: 125px;
+}
+
+@media(min-width:400px) and (max-width:500px){
+
+.btngml{
+  display: block;
+}
+
+  #section-one{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+     
+   }
+
+
+  .btngml #gmail{
+    width: 200px;
+    height: 30px;
+  }
+
+  .ptag{
+    font-size: 20px;
+  }
+.item-two{
+  display: flex;
+  justify-content: space-evenly;
+}
+  .con{
+    font-size: 13px;
+  }
+  .getstart-btn{
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+  }
+  #cards{
+    height: 1000px;
+  }
+  .svg-one , .svg-two ,.svg-three ,.svg-four{
+    display: none;
+  }
+  .center div {
+    margin-bottom: 10px;
+  }
+  .paraa{
+    font-size: 25px;
+  }
+  .para{
+    font-size: 10px;
+  }
+
+  .nav-flex #el{
+
+    width: 200px;
+    height: 30px;
+
+  }
+
+
+
+  .btnn{
+    height: 32px;
+    width: 80px;
+    font-size: 10px;
+  }
+  .nav-flex{
+    padding-bottom: 20px;
+  }
+  .q{
+    font-size: 15px;
+  }
+  .footer-main div {
+    font-size: 10px;
+  }
+  #chevron{
+    display: none;
+  }
+  .eng ,.abc{
+    font-size: 10px;
+  }
+  #oh{
+    height: 50px;
+    font-size: 15px;
+  }
+  #heading{
+    font-size: 20px;
+  }
+
+
+
+  .center{
+ 
+    justify-content: center;
+   }
+   .paraa{
+    text-align: center;
+   }
+}
+
+@media(min-width:501px) and (max-width:608px){
+  #section-one{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: contain;
+     
+   }
+
+  #cards{
+    height: 1000px;
+  }
+
+
+  .svg-one , .svg-two ,.svg-three ,.svg-four{
+    display: none;
+  }
+  .center div{
+    margin-bottom: 20px;
+  }
+  .ptag{
+    font-size: 30px;
+  }
+  .con{
+    font-size: 13px;
+  }
+  #gmail{
+    height: 35px;
+  }
+  .getstart-btn{
+    height: 35px;
+    width: 100px;
+    font-size: 13px;
+  }
+  #svg-netflix{
+    width: 100px;
+  }
+ 
+  .btngml{
+    margin: 5px;
+  }
+  #chevron{
+    position: relative;
+    left: 94px;
+    font-size: 12px;
+  }
+  .nav-flex{
+    display: inline-block;
+    justify-content: center;
+  }
+  .ehh{
+    display: flex;
+    justify-content: center;
+  }
+  #el{
+    margin-bottom: 10px;
+  }
+  .nav-flex{
+    margin-bottom: 20px;
+  }
+ #el{
+  height: 25px;
+width: 300px;
+}
+.btnn{
+  height: 25px;
+
+font-size: 12px;
+}
+div.btnn{
+  width: 40%;
+  margin-right: 0%;
+  margin-left: 100px;
+}
+
+
+.q{
+  font-size: 10px;
+}
+#oh{
+  height: 50px;
+  font-size: 15px;
+}
+#heading{
+  font-size: 20px;
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.footer-main div ul{
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+.para{
+  font-size: 10px;
+}
+ .center{
+ 
+  justify-content: center;
+ }
+ .paraa{
+  text-align: center;
+ }
+
+
+
+.end-footer{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+ 
+}
+.eng{
+  height: 15px;
+  font-size: 12px;
+  width: 50px;
+}
+
+.abc{
+display: none;}
+
+}
+
+
+@media(min-width:609px) and (max-width:914px){
+
+
+
+  #section-one{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: contain;
+     
+   }
+
+  #cards{
+    height: 600px;
+  }
+  .svg-one , .svg-two ,.svg-three ,.svg-four{
+    display: none;
+  }
+  .center div{
+    margin-bottom: 10px;
+  }
+#el{
+  height: 40px;
+}
+.btnn{
+  height: 43px;
+  width: 170px;
+  font-size: 20px;
+}
+#ul {
+  font-size: 12px;
+}
+.eng ,.abc{
+  font-size: 12px;
+
+}
+.eng{
+  width: 70px;
+  border-radius: 5px;
+}
+}
+
+
+@media(min-width:915px) and (max-width:1215px){
+
+  #section-one{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+   
+     
+   }
+
+
+  #cards{
+    height:600px;
+  }
+  .svg-one , .svg-two ,.svg-three ,.svg-four{
+    display: none;
+  }
+  .center> div{
+    margin-bottom: 20px;
+  }
+
+  #section-one{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+     
+   }
+
+}
